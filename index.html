@@ -1,441 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charSet="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    
-    <!-- Preload logo image -->
-    <link rel="preload" as="image" href="https://karanmetalabe.com/wp-content/uploads/2026/08/images-21.jpg"/>
-    
-    <title>Pankaj Bhardwaj | Nifty &amp; Banknifty Calls</title>
-    <meta name="author" content="Lovable"/>
-    <meta name="twitter:site" content="@Lovable"/>
-    <meta name="twitter:title" content="Pankaj Bhardwaj | Nifty &amp; Banknifty Calls"/>
-    <meta name="twitter:description" content="Join Pankaj Bhardwaj's SEBI Registered Research Analyst Telegram channel for Nifty and Banknifty calls, market analysis, and chart updates."/>
-    <meta name="description" content="Join Pankaj Bhardwaj's SEBI Registered Research Analyst Telegram channel for Nifty and Banknifty calls, market analysis, and chart updates."/>
-    <meta property="og:title" content="Pankaj Bhardwaj | Nifty &amp; Banknifty Calls"/>
-    <meta property="og:description" content="Join Pankaj Bhardwaj's SEBI Registered Research Analyst Telegram channel for Nifty and Banknifty calls, market analysis, and chart updates."/>
-    <meta property="og:type" content="website"/>
-    <meta name="twitter:card" content="summary_large_image"/>
-    
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-    
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2131531614384545');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2131531614384545&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>TRADE WITH VIKAS OFFICIAL</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        /* Reset and base styles */
+        /* ----- CSS reset & base ----- */
+        :root {
+            --brand-blue: #0f3dff;
+            --success-green: #16a34a;
+            --bg-light: #f8fafc;
+        }
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
         }
-        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: white;
+            background-color: var(--bg-light);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 24px 16px;
         }
-        
-        .main-container {
+        .main-card {
             width: 100%;
-            max-width: 448px;
-            margin: 0 auto;
+            max-width: 500px;
+            min-height: 100vh;
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            padding: 40px 20px;
+            text-align: center;
         }
-        
-        /* Logo */
-        .logo-container {
-            max-width: 220px;
-            margin: 0 auto 24px;
+        .logo-box {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            border: 4px solid var(--brand-blue);
+            padding: 3px;
+            overflow: hidden;
+            background: #fff;
         }
-        
-        @media (min-width: 640px) {
-            .logo-container {
-                max-width: 260px;
-            }
-        }
-        
-        .logo-image {
+        .logo-img {
             width: 100%;
-            height: auto;
-            border-radius: 16px;
-            object-fit: cover;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            display: block;
-        }
-        
-        /* Title */
-        .main-title {
-            text-align: center;
-            font-size: 2.25rem;
-            font-weight: 900;
-            letter-spacing: -0.025em;
-            color: black;
-            margin-bottom: 8px;
-        }
-        
-        @media (min-width: 640px) {
-            .main-title {
-                font-size: 3rem;
-            }
-        }
-        
-        .subtitle {
-            text-align: center;
-            font-size: 1rem;
-            font-weight: 700;
-            letter-spacing: 0.025em;
-            color: #404040;
-            margin-bottom: 28px;
-        }
-        
-        @media (min-width: 640px) {
-            .subtitle {
-                font-size: 1.125rem;
-            }
-        }
-        
-        /* Button */
-        .telegram-btn {
-            display: inline-flex;
-            width: 100%;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            border-radius: 16px;
-            background: #00c853;
-            padding: 16px 24px;
-            font-size: 1.125rem;
-            font-weight: 700;
-            color: white;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            transition: all 0.15s ease;
-        }
-        
-        .telegram-btn:hover {
-            background: #00b248;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        
-        .telegram-btn:active {
-            transform: translateY(0) scale(0.95);
-        }
-        
-        @media (min-width: 640px) {
-            .telegram-btn {
-                font-size: 1.25rem;
-            }
-        }
-        
-        .telegram-btn .icon {
-            font-size: 1.25rem;
-        }
-        
-        @media (min-width: 640px) {
-            .telegram-btn .icon {
-                font-size: 1.5rem;
-            }
-        }
-        
-        .btn-wrapper {
-            padding: 0 4px;
-            margin-bottom: 32px;
-        }
-        
-        /* Features list */
-        .features {
-            padding: 0 4px;
-            margin-bottom: 32px;
-        }
-        
-        .feature-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 12px;
-            font-size: 0.875rem;
-            font-weight: 700;
-            letter-spacing: -0.025em;
-            color: #171717;
-            margin-bottom: 16px;
-        }
-        
-        @media (min-width: 640px) {
-            .feature-item {
-                font-size: 1rem;
-            }
-        }
-        
-        .feature-item .icon {
-            flex-shrink: 0;
-            font-size: 1rem;
-        }
-        
-        @media (min-width: 640px) {
-            .feature-item .icon {
-                font-size: 1.125rem;
-            }
-        }
-        
-        /* Divider */
-        .divider {
-            border: none;
-            border-top: 1px solid #e5e5e5;
-            margin-bottom: 32px;
-        }
-        
-        /* Bottom section */
-        .bottom-title {
-            text-align: center;
-            font-size: 1.25rem;
-            font-weight: 900;
-            letter-spacing: -0.025em;
-            color: black;
-            margin-bottom: 16px;
-        }
-        
-        @media (min-width: 640px) {
-            .bottom-title {
-                font-size: 1.5rem;
-            }
-        }
-        
-        .bottom-btn-wrapper {
-            padding: 0 4px;
-            margin-bottom: 40px;
-        }
-        
-        .disclaimer {
-            max-width: 320px;
-            margin: 0 auto;
-            text-align: center;
-            font-size: 0.75rem;
-            line-height: 1.5;
-            color: #525252;
-        }
-        
-        /* Utility */
-        .mt-2 { margin-top: 8px; }
-        .mt-4 { margin-top: 16px; }
-        .mb-4 { margin-bottom: 16px; }
-        
-        /* Lovable Badge (optional - keep if needed) */
-        #lovable-badge {
-            position: fixed;
-            bottom: 12px;
-            right: 12px;
-            z-index: 1000000;
-            background: #1b1b1b;
-            color: #c5c1b9;
-            border-radius: 6px;
-            padding: 0 8px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            font-size: 12px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            box-shadow: 0 0 0 1px rgba(0,0,0,0.88), 0 2px 2px -1px rgba(0,0,0,0.08);
-        }
-        
-        #lovable-badge-cta {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            padding: 0 8px;
             height: 100%;
-            color: inherit;
-            text-decoration: none;
-            white-space: nowrap;
-            border-radius: 6px 0 0 6px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
         }
-        
-        #lovable-badge-cta:hover {
-            background: rgba(255,255,255,0.04);
-            color: #dcdad5;
+        .highlight-heading {
+            display: inline-block;
+            background: linear-gradient(90deg, var(--brand-blue), #2563eb);
+            color: #fff;
+            padding: 6px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 1.4px;
+            margin-bottom: 15px;
         }
-        
-        #lovable-badge-divider {
-            width: 1px;
-            height: 24px;
-            background: rgba(255,255,255,0.04);
-            flex-shrink: 0;
+        h1 {
+            font-size: 28px;
+            font-weight: 900;
+            color: #0f172a;
+            margin-bottom: 10px;
         }
-        
-        #lovable-badge-close {
-            width: 24px;
-            height: 24px;
-            min-width: 24px;
-            min-height: 24px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            padding: 0;
+        .tagline {
+            font-size: 16px;
+            color: #64748b;
+            margin-bottom: 25px;
+        }
+        .timer {
+            font-size: 22px;
+            font-weight: 900;
+            color: #ef4444;
+            margin-bottom: 20px;
+            background: #fee2e2;
+            padding: 8px 16px;
+            border-radius: 40px;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn-green {
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 0 6px 6px 0;
-            flex-shrink: 0;
+            gap: 12px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: #fff;
+            text-decoration: none;
+            padding: 20px;
+            border-radius: 16px;
+            font-size: 18px;
+            font-weight: 900;
+            box-shadow: 0 12px 25px rgba(34, 197, 94, 0.35);
+            transition: 0.3s ease;
+            cursor: pointer;
+            border: none;
         }
-        
-        #lovable-badge-close:hover {
-            background: rgba(255,255,255,0.04);
+        .btn-green:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(135deg, #16a34a, #15803d);
         }
-        
-        #lovable-badge-close svg path {
-            fill: #c5c1b9;
+        .info-list {
+            margin: 30px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .info-item {
+            background: #f1f5f9;
+            padding: 15px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #334155;
+            border-left: 4px solid var(--brand-blue);
+        }
+        .notice-box {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            color: #475569;
+            padding: 18px;
+            border-radius: 15px;
+            font-size: 12px;
+            line-height: 1.6;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .footer {
+            margin-top: auto;
+            padding-top: 15px;
+            font-size: 11px;
+            color: #94a3b8;
+        }
+        .timer-wrap {
+            display: flex;
+            justify-content: center;
+        }
+        .countdown-note {
+            font-size: 14px;
+            color: #475569;
+            margin: 6px 0 16px;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
-    <main class="main-container">
+
+    <div class="main-card">
+
         <!-- Logo -->
-        <div class="logo-container">
-            <img 
-                src="https://karanmetalabe.com/wp-content/uploads/2026/08/images-21.jpg" 
-                alt="Pankaj Bhardwaj - SEBI Registered Research Analyst" 
-                class="logo-image"
-                width="260" 
-                height="260"
-                loading="eager"
-            />
+        <div class="logo-box">
+            <img class="logo-img"
+                 src="https://learn.stocksolotion.online/wp-content/uploads/2026/07/trade-with-vikas.jpg"
+                 alt="TRADE WITH VIKAS OFFICIAL">
         </div>
-        
-        <!-- Title -->
-        <h1 class="main-title">Pankaj Bhardwaj</h1>
-        <p class="subtitle">
-            Nifty &amp; Banknifty Calls<br/>
-            (SEBI Registered)
-        </p>
-        
-        <!-- Join Telegram Button -->
-        <div class="btn-wrapper">
-            <a 
-                href="https://t.me/+ix1Xa48cgPEwZTI1" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="telegram-btn"
-                onclick="fbq('track', 'Lead', {content_name: 'Telegram_Join_Click'});"
-            >
-                <span class="icon">✈️</span>
-                <span>Join Our Telegram</span>
-            </a>
+
+        <span class="highlight-heading">TRADE WITH VIKAS OFFICIAL</span>
+        <h1>TRADE WITH VIKAS OFFICIAL</h1>
+        <p class="tagline">Mastering Market Logic & Price Action with Simplicity.</p>
+
+        <!-- Timer: 15 seconds (auto-redirect) -->
+        <div class="timer-wrap">
+            <div class="timer" id="timer">⏳ JOIN NOW 15</div>
         </div>
-        
-        <!-- Features -->
-        <div class="features">
-            <p class="feature-item">
-                <span class="icon">🏅</span>
-                <span>SEBI Registered Research Analyst</span>
-            </p>
-            <p class="feature-item">
-                <span class="icon">📈</span>
-                <span>Get Nifty, Banknifty Level Update With Proper Analysis</span>
-            </p>
-            <p class="feature-item">
-                <span class="icon">🎯</span>
-                <span>Proper Updates With Charts During Market</span>
-            </p>
-            <p class="feature-item">
-                <span class="icon">👇</span>
-                <span>For More Updates CLICK ON BELOW BUTTON</span>
-            </p>
-        </div>
-        
-        <!-- Divider -->
-        <hr class="divider"/>
-        
-        <!-- Bottom Section -->
-        <h2 class="bottom-title">Join the Best Trading Telegram Group!</h2>
-        
-        <div class="bottom-btn-wrapper">
-            <a 
-                href="https://t.me/+ix1Xa48cgPEwZTI1" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="telegram-btn"
-                onclick="fbq('track', 'Lead', {content_name: 'Telegram_Join_Click_Bottom'});"
-            >
-                <span class="icon">✈️</span>
-                <span>Join Our Telegram</span>
-            </a>
-        </div>
-        
-        <!-- Disclaimer -->
-        <p class="disclaimer">
-            Warning: Investment in securities market are subject to market risks. 
-            Read all the related documents carefully before investing.
-        </p>
-    </main>
-    
-    <!-- Lovable Badge (optional - remove if not needed) -->
-    <aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
-        <a id="lovable-badge-cta" target="_blank" href="https://lovable.dev/projects/lovp_7hed3080h49nxr4jh12vazdxnn?utm_source=lovable-badge" rel="noopener nofollow" aria-label="Edit with Lovable">
-            <span id="lovable-badge-text">Edit with</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
-                <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"/>
-                <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"/>
-                <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"/>
-                <defs>
-                    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
-                        <stop offset=".106" stop-color="#FE7B02"/>
-                        <stop offset=".394" stop-color="#FE3F21"/>
-                        <stop offset=".608" stop-color="#F858BC"/>
-                        <stop offset=".929" stop-color="#575ECF"/>
-                    </radialGradient>
-                </defs>
-            </svg>
+        <div class="countdown-note" id="redirectNote">⏳ Redirecting in 15 seconds...</div>
+
+        <!-- Telegram Button -->
+        <a href="https://t.me/+rIv7JJ0oQ7ZmZDU1" target="_blank" class="btn-green" id="telegramBtn">
+            🚀 JOIN FREE TELEGRAM
         </a>
-        <span id="lovable-badge-divider" aria-hidden="true"></span>
-        <button id="lovable-badge-close" aria-label="Dismiss" title="Dismiss" type="button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
-                <path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"/>
-            </svg>
-        </button>
-    </aside>
-    
+
+        <!-- Info badges -->
+        <div class="info-list">
+            <div class="info-item">✅ SEBI Registered Research Analyst</div>
+            <div class="info-item">📈 Real-time Market Analysis</div>
+            <div class="info-item">💡 Simple Price Action Logic</div>
+            <div class="info-item">🎯 Educational & Learning Purpose</div>
+        </div>
+
+        <!-- Disclaimer -->
+        <div class="notice-box">
+            <b>DISCLAIMER:</b><br>
+            Investment/Trading in securities market is subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors.
+        </div>
+
+        <div class="footer">
+            TRADE WITH VIKAS OFFICIAL • © 2026
+        </div>
+    </div>
+
+    <!-- ===== META PIXEL (ID: 1594983255621579) ===== -->
     <script>
-        // Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer
-        if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
-            var badge = document.getElementById('lovable-badge');
-            if (badge) {
-                badge.style.display = 'none';
-            }
-        }
-        
-        // Add click event listener to close button
-        var closeButton = document.getElementById('lovable-badge-close');
-        if (closeButton) {
-            closeButton.addEventListener('click', function(event) {
-                event.preventDefault();
-                event.stopPropagation();
-                var badge = document.getElementById('lovable-badge');
-                if (badge) {
-                    badge.style.display = 'none';
-                }
-            });
-        }
+        !function(f,b,e,v,n,t,s) {
+            if(f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if(!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1594983255621579');   // new pixel ID
+        fbq('track', 'PageView');
     </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=1594983255621579&ev=PageView&noscript=1" />
+    </noscript>
+
+    <!-- ===== 15-SECOND COUNTDOWN + AUTO-REDIRECT + CLICK TRACKING ===== -->
+    <script>
+        (function() {
+            const TG_URL = 'https://t.me/+rIv7JJ0oQ7ZmZDU1';
+            let timeLeft = 15;
+            const timerEl = document.getElementById('timer');
+            const noteEl = document.getElementById('redirectNote');
+            let redirectTimer = null;
+            let countdownInterval = null;
+
+            // ---------- UI update ----------
+            function updateDisplay() {
+                if (timeLeft > 0) {
+                    timerEl.innerText = '⏳ JOIN NOW ' + timeLeft;
+                    noteEl.innerText = '⏳ Redirecting in ' + timeLeft + ' seconds...';
+                } else {
+                    timerEl.innerText = '🔥 JOIN NOW';
+                    noteEl.innerText = '🔁 Redirecting now...';
+                }
+            }
+
+            // ---------- redirect function (with event tracking) ----------
+            function redirectToTelegram() {
+                // track custom event + lead before redirect
+                if (typeof fbq !== 'undefined') {
+                    fbq('trackCustom', 'JoinTelegram', {
+                        button: 'auto_redirect',
+                        channel: TG_URL,
+                        timer: '15s'
+                    });
+                    fbq('track', 'Lead', {
+                        content_name: 'Telegram Auto-Redirect',
+                        content_category: 'CTA'
+                    });
+                }
+                // redirect
+                window.location.href = TG_URL;
+            }
+
+            // ---------- start countdown ----------
+            function startCountdown() {
+                // clear any previous timers
+                if (countdownInterval) clearInterval(countdownInterval);
+                if (redirectTimer) clearTimeout(redirectTimer);
+
+                updateDisplay();
+
+                countdownInterval = setInterval(function() {
+                    timeLeft--;
+                    updateDisplay();
+                    if (timeLeft <= 0) {
+                        clearInterval(countdownInterval);
+                        countdownInterval = null;
+                        // set a small delay so user sees the "redirecting" message
+                        redirectTimer = setTimeout(function() {
+                            redirectToTelegram();
+                        }, 300);
+                    }
+                }, 1000);
+            }
+
+            // ---------- manual button click (with tracking) ----------
+            const tgBtn = document.getElementById('telegramBtn');
+            if (tgBtn) {
+                tgBtn.addEventListener('click', function(e) {
+                    // prevent default to allow tracking, then redirect manually
+                    e.preventDefault();
+                    if (typeof fbq !== 'undefined') {
+                        fbq('trackCustom', 'JoinTelegram', {
+                            button: 'manual_click',
+                            channel: TG_URL
+                        });
+                        fbq('track', 'Lead', {
+                            content_name: 'Telegram Manual Click',
+                            content_category: 'CTA'
+                        });
+                    }
+                    // redirect to telegram
+                    window.location.href = TG_URL;
+                });
+            }
+
+            // ---------- start the 15s countdown ----------
+            startCountdown();
+
+            // console log for debug
+            console.log('✅ 15s timer + auto-redirect + pixel tracking ready');
+        })();
+    </script>
+
 </body>
 </html>
